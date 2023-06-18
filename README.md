@@ -46,8 +46,8 @@ At the heart of Aegis is a classification model trained on a large corpus of pro
 ## Roadmap
 - [x] Prompt Injection Detection
 - [x] PII Detection
-- [x] Toxic language
-- [ ] Attack Signature Learning
+- [x] Toxic Language Detection
+- [x] Attack Signature Learning
 - [ ] Similar Word Redaction Detection
 - [ ] Canary Leak Detection
 - [ ] Replace PII Data with Synthetic Data / Pseudonomized Tokens
