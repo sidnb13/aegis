@@ -23,7 +23,6 @@ ingress_attack_detected = aegis.ingress(prompt, user)["detected"]
 
 if ingress_attack_detected:
     print("Attack detected!")
-    ag.report(prompt, user)
 else:
     model_output = llm(prompt + user)
 
@@ -32,6 +31,7 @@ else:
 
     if ag.egress(prompt, model_output)["detected"]:
         print("Egress attack detected!")
+        # Report the attack to Aegis to improve future detection
         ag.report(prompt, model_output)
     else:
         print("No attack detected.")
