@@ -1,6 +1,6 @@
 # Aegis
 
-Aegis is a self-hardening firewall for large language models. Use it to protect your models from adversarial attacks, like prompt injections,<sup>[1](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)</sup> prompt leakage, PII detection, and more.
+Aegis is a self-hardening firewall for large language models. Use it to protect your models from adversarial attacks: prompt injections,<sup>[1](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)</sup> prompt leakage, PII detection, and more.
 
 ## Installation
 
