@@ -46,7 +46,7 @@ else:
 
 ## How It Works
 
-At the heart of Aegis is a classification model trained on a large corpus of prompt injections and prompt leakage attacks. Along with various heuristics borrowed from traditional antivirus and firewalls, the model is used to detect attacks on your model's input and signs of a poisoned model output.
+At the heart of Aegis is a classification model trained on a large corpus of prompt injections and prompt leakage attacks. Along with various heuristics borrowed from traditional antivirus and firewalls, the model is used to detect attacks on your model's input and signs of a poisoned model output. Additionally, our model hardens itself through the injection attacks it sees, caching results for optimal performance.
 
 ## Roadmap
 - [x] Prompt injection detection
