@@ -3,7 +3,7 @@
   ## Aegis
   
   ### *Self-hardening firewall for LLMs*
-Aegis is a self-hardening firewall for large language models. Protect your models from adversarial attacks: prompt injections,<sup>[1](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)</sup> prompt leakage, PII detection, and more.
+Aegis is a self-hardening firewall for large language models. Protect your models from adversarial attacks: [prompt injections](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/), prompt leakage, PII detection, and more.
 
 </div>
 
