@@ -53,7 +53,7 @@ At the heart of Aegis is a classification model trained on a large corpus of pro
 - [x] PII detection
 - [x] Toxic language detection
 - [x] Attack signature learning
-- [ ] On egress, (semantically & lexically) similar word detection / redaction
+- [ ] On egress, (semantic & lexical) similar prompt leakage and censored word detection / redaction
 - [ ] Canary word leak detection
 - [ ] Replace PII Data with synthetic data / pseudonomized tokens
 - [ ] Enable arbitrary, user-specified rules (e.g., to detect / or even actively modify / minimize repetition)
