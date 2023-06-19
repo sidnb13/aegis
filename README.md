@@ -16,7 +16,7 @@ pip install git+https://github.com/automorphic-ai/aegis.git
 
 ## Usage
 
-To use Aegis, you'll need an API key. You can get one by signing up for an account at [automorphic.ai](https://automorphic.ai).
+To use Aegis, you'll need an API key, which you can get by signing up for a free account at [automorphic.ai](https://automorphic.ai).
 
 ```python
 import aegis
