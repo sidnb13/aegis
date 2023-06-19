@@ -60,4 +60,4 @@ At the heart of Aegis is a classification model trained on a large corpus of pro
 - [ ] Enable arbitrary, user-specified rules (e.g., to detect / or even actively modify / minimize repetition)
 - [ ] Latent space nudging / conforming of malicious user input into a non-malicious form
 
-Join our [Discord](https://discord.gg/E8y4NcNeBe) if you're interested in using aegis, need some help, have ideas, or want to contribute.
+Join our [Discord](https://discord.gg/E8y4NcNeBe) if you're interested in using Aegis, need some help, have ideas, or want to contribute.
