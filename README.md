@@ -50,10 +50,12 @@ else:
 At the heart of Aegis is a classification model trained on a large corpus of prompt injections and prompt leakage attacks. Along with various heuristics borrowed from traditional antivirus and firewalls, the model is used to detect attacks on your model's input and signs of a poisoned model output.
 
 ## Roadmap
-- [x] Prompt Injection Detection
-- [x] PII Detection
-- [x] Toxic Language Detection
-- [x] Attack Signature Learning
-- [ ] (Semantically & Lexically) Similar Word Redaction
-- [ ] Canary Word Leak Detection
-- [ ] Replace PII Data with Synthetic Data / Pseudonomized Tokens
+- [x] Prompt injection detection
+- [x] PII detection
+- [x] Toxic language detection
+- [x] Attack signature learning
+- [ ] (Semantically & Lexically) similar word detection / redaction
+- [ ] Canary word leak detection
+- [ ] Replace PII Data with synthetic data / pseudonomized tokens
+- [ ] Enable arbitrary, user-specified rules (e.g., to detect / or even actively modify / minimize repetition)
+- [ ] Latent space nudging / conforming of malicious user input into a non-malicious form
