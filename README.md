@@ -35,9 +35,9 @@ else:
     model_output = llm(prompt + user)
 
     # Check if the model's output is the result of an attack
-    ag.egress(prompt, model_output)
+    egress_attack_detected = ag.egress(prompt, model_output)["detected"]
 
-    if ag.egress(prompt, model_output)["detected"]:
+    if egress_attack_detected:
         print("Egress attack detected!")
         # Report the attack to Aegis to improve future detection
         ag.report(prompt, model_output)
