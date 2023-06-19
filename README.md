@@ -31,7 +31,7 @@ ingress_attack_detected = ag.ingress(prompt, user)["detected"]
 if ingress_attack_detected:
     print("Attack detected!")
 else:
-    model_output = llm(prompt + user)
+    model_output = llm(prompt + user) # arbitrary llm
 
     # Check if the model's output is the result of an attack
     egress_attack_detected = ag.egress(prompt, model_output)["detected"]
@@ -53,10 +53,10 @@ At the heart of Aegis is a classification model trained on a large corpus of pro
 - [x] PII detection
 - [x] Toxic language detection
 - [x] Attack signature learning
-- [ ] (Semantically & Lexically) similar word detection / redaction, on egress
+- [ ] On egress, (semantically & lexically) similar word detection / redaction
 - [ ] Canary word leak detection
 - [ ] Replace PII Data with synthetic data / pseudonomized tokens
 - [ ] Enable arbitrary, user-specified rules (e.g., to detect / or even actively modify / minimize repetition)
 - [ ] Latent space nudging / conforming of malicious user input into a non-malicious form
 
-Join our [Discord](https://discord.gg/E8y4NcNeBe) if you're interested in or need help using Aegis, have ideas, or want to contribute.
+Join our [Discord](https://discord.gg/E8y4NcNeBe) if you're interested in or need help using Aegis, have ideas, or want to contribute. 
